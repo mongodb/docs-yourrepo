@@ -1,0 +1,64 @@
+:orphan:
+
+=============================
+MongoDB Drivers and Ecosystem
+=============================
+
+The MongoDB Ecosystem contains documentation for the drivers,
+frameworks, tools, and platform services that work with MongoDB. For
+the main MongoDB documentation, see the :manual:`MongoDB Manual </>`.
+
+.. admonition:: Announcing new online course
+
+   `Adobe Experience Manager and MongoDB <https://university.mongodb.com/courses/M212/about?jmp=docs>`_
+
+MongoDB Drivers
+---------------
+
+.. include:: /includes/driver-table.rst
+
+For information on MongoDB licensing, see `MongoDB Licensing
+<https://www.mongodb.com/community/licensing>`_.
+
+MongoDB ODM (Object-Document-Mapper) 
+------------------------------------
+
+Mongoid is the officially supported ODM (Object-Document-Mapper)
+framework for MongoDB in Ruby. For documentation, see `Mongoid
+Documentation <https://docs.mongodb.com/mongoid/current/>`_.
+
+
+Tools and Integration Frameworks
+--------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   MongoDB Connector for Business Intelligence <https://docs.mongodb.com/bi-connector/current/>
+   tools/http-interfaces
+
+Platforms and Services
+----------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   platforms/amazon-ec2
+   platforms/windows-azure
+   platforms/windows
+
+Use Cases
+---------
+
+.. toctree::
+   :maxdepth: 1
+
+   /use-cases/storing-log-data
+   /use-cases/hierarchical-aggregation
+
+   /use-cases/product-catalog
+   /use-cases/inventory-management
+   /use-cases/category-hierarchy
+
+   /use-cases/metadata-and-asset-management
+   /use-cases/storing-comments

@@ -1,0 +1,226 @@
+.. _perl-language-center:
+
+===================
+MongoDB Perl Driver
+===================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: twocols
+
+The official Perl driver is available through CPAN as the package
+`MongoDB <https://metacpan.org/release/MongoDB>`_.
+
+* `Installation
+  <https://github.com/mongodb/mongo-perl-driver/blob/master/INSTALL.md>`_
+* `Tutorial
+  <https://metacpan.org/pod/distribution/MongoDB/lib/MongoDB/Tutorial.pod>`_
+
+MongoDB Perl Driver Compatibility
+---------------------------------
+
+MongoDB Compatibility
+~~~~~~~~~~~~~~~~~~~~~
+
+.. include:: /includes/extracts/perl-driver-compatibility-matrix-mongodb.rst
+
+
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+   :class: compatibility-large
+
+   * - Perl Driver
+     - MongoDB 4.0
+     - MongoDB 3.6
+     - MongoDB 3.4
+     - MongoDB 3.2
+     - MongoDB 3.0
+     - MongoDB 2.6
+     - MongoDB 2.4
+
+   * - 2.0.x
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+   * - 1.8.x
+     -
+     -
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+
+   * - 1.6.x
+     -
+     -
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+   * - 1.4.x
+     -
+     -
+     -
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+   * - 1.2.x
+     -
+     -
+     -
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+   * - 1.0.x
+     -
+     -
+     -
+     -
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+.. include:: /includes/older-server-versions-unsupported.rst
+
+Language Compatibility
+~~~~~~~~~~~~~~~~~~~~~~
+
+The MongoDB Perl driver requires Perl 5.10.1 or later.
+
+.. include:: /includes/unicode-checkmark.rst
+
+Third-party Perl Drivers
+------------------------
+
+Mango
+~~~~~
+
+`Mango <https://metacpan.org/module/Mango>`_ is a pure-Perl, non-blocking,
+asynchronous driver for MongoDB, designed to work with the Mojolicious web framework.
+Created by Sebastian Riedel.
+
+Object-Document Mappers
+-----------------------
+
+Meerkat
+~~~~~~~
+
+`Meerkat <https://metacpan.org/module/Meerkat>`_ lets you manage MongoDB documents
+as Moose objects. Your objects represent projections of the document state maintained in the database.
+Meerkat is designed for atomic operations that keep client-side objects in sync with
+the database. Created by David Golden.
+
+MongoDB::Simple
+~~~~~~~~~~~~~~~
+
+`MongoDB::Simple <https://metacpan.org/module/MongoDB::Simple>`_ is
+a basic object-to-document mapping system with few dependencies. Created
+by Ian Kent.
+
+Mongoose
+~~~~~~~~
+
+`Mongoose <https://metacpan.org/module/Mongoose>`_ is an attempt to
+bring together the full power of Moose with MongoDB. It provides a full suite
+of object-to-document mapping facilities. Created by Rodrigo
+de Oliveira Gonzalez.
+
+MongoDBI
+~~~~~~~~
+
+`MongoDBI <https://metacpan.org/module/MongoDBI>`_ is an
+Object-Document-Mapper (ODM) for MongoDB. It allows you to create
+Moose-based classes to interact with MongoDB databases.
+
+MongoDBI allows you to easily model classes while leveraging
+the power of MongoDB's schema-less and expeditious document-based design,
+dynamic queries, and atomic modifier operations. Created by Al Newkirk.
+
+MongoDBx::Class
+~~~~~~~~~~~~~~~
+
+`MongoDBx::Class <https://metacpan.org/module/MongoDBx::Class>`_ is an
+ORM for MongoDB databases. MongoDBx::Class takes advantage of the fact
+that Perl's MongoDB driver is Moose-based to extend and tweak the
+driver's behavior, instead of wrapping it. This means MongoDBx::Class
+does not define its own syntax, so you simply use it exactly as you
+would the MongoDB driver directly. Created by Ido Perlmuter.
+
+Other Perl Tools
+----------------
+
+BSON and BSON::XS
+~~~~~~~~~~~~~~~~~
+
+`BSON <https://metacpan.org/module/BSON>`_ is a pure-Perl BSON
+implementation. Created by Stefan G. and maintained by MongoDB.
+
+`BSON::XS <https://metacpan.org/module/BSON::XS>`_ is an optional,
+XS-optimized BSON implementation plugin for the BSON module.  Created
+by MongoDB.
+
+Entities::Backend::MongoDB
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`Entities::Backend::MongoDB <https://metacpan.org/module/Entities::Backend::MongoDB>`_
+is a backend for the Entities user management and authorization system. It
+stores all entities and relations between them in a MongoDB database. Created by
+Ido Perlmuter.
+
+MojoX::Session::Store::MongoDB
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`MojoX::Session::Store::MongoDB <https://metacpan.org/module/MojoX::Session::Store::MongoDB>`_
+is a store for `MojoX::Session <https://metacpan.org/module/MojoX::Session>`_
+that stores a session in a MongoDB database. Created by Ask Bjørn Hansen.
+
+MongoDB::Admin
+~~~~~~~~~~~~~~
+
+`MongoDB::Admin <https://metacpan.org/module/MongoDB::Admin>`_ is a
+collection of MongoDB administrative functions. Created by David Burley.
+
+MongoDBx::Queue
+~~~~~~~~~~~~~~~
+
+`MongoDBx::Queue <https://metacpan.org/module/MongoDBx::Queue>`_ is
+a basic message queue system backed by MongoDB. Created by David Golden.
+
+MongoX
+~~~~~~
+
+`MongoX <https://metacpan.org/module/MongoX>`_ is light wrapper for
+MongoDB, providing some nice DSL sugar. Created by Pan Fan.
+
+MooseX::Role::MongoDB
+~~~~~~~~~~~~~~~~~~~~~
+
+`MooseX::Role::MongoDB <https://metacpan.org/module/MooseX::Role::MongoDB>`_
+is a Moose role which provides connection management and automatic
+fork handling for the MongoDB driver. Created by David Golden.
+
+OOP Perl CMS
+~~~~~~~~~~~~
+
+`OOP Perl CMS <http://www.waitman.net/mod_perl-mongodb-CMS.html>`_ is
+based on Khurt Williams' Object Oriented Perl methodology and can be
+used as a basic CMS framework or as a basis for your own CMS system. It
+uses Apache & mod_perl with MongoDB backend. Created by Waitman Gobble.

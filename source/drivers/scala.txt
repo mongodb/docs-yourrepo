@@ -1,0 +1,108 @@
+.. _scala:
+
+=====================
+MongoDB Scala Drivers
+=====================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+This is an overview of the available tools for using Scala with
+MongoDB. Those wishing to skip to more detailed discussion should check
+out the `Mongo Scala Driver Tutorial <http://mongodb.github.io/mongo-scala-driver/2.4/getting-started/>`_. 
+
+
+Mongo Scala Driver
+------------------
+
+The `Mongo Scala Driver <http://github.com/mongodb/mongo-scala-driver>`_ is the officially supported Scala driver for MongoDB.
+It's a modern idiomatic Scala driver with asynchronous and non-blocking IO.
+
+- `Documentation Hub <http://mongodb.github.io/mongo-scala-driver/>`_
+- `API ScalaDoc <http://mongodb.github.io/mongo-scala-driver/2.4/scaladoc/>`_
+- `Getting Started Guide <http://mongodb.github.io/mongo-scala-driver/2.4/getting-started/>`_
+- `Java <http://mongodb.github.io/mongo-java-driver/?jmp=docs>`_
+
+Compatibility
+~~~~~~~~~~~~~
+
+MongoDB Compatibility
+`````````````````````
+
+.. include:: /includes/extracts/scala-driver-compatibility-matrix-mongodb.rst
+
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+   :class: compatibility-large
+
+   * - Scala Driver
+     - MongoDB 4.0
+     - MongoDB 3.6
+     - MongoDB 3.4
+     - MongoDB 3.2
+     - MongoDB 3.0
+     - MongoDB 2.6
+
+   * - 2.4
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+   * - 2.3
+     - 
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+   * - 2.2
+     -
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+     - |checkmark|
+
+.. include:: /includes/extracts/scala-driver-compatibility-full-mongodb.rst
+
+.. include:: /includes/older-server-versions-unsupported.rst
+
+Language Compatibility
+``````````````````````
+
+.. include:: /includes/extracts/scala-driver-compatibility-matrix-language.rst
+
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+   :class: compatibility
+
+   * - Scala Driver
+     - Scala 2.11
+     - Scala 2.12
+
+   * - 2.4
+     - |checkmark|
+     - |checkmark|
+
+   * - 2.3
+     - |checkmark|
+     - |checkmark|
+
+   * - 2.2
+     - |checkmark|
+     - |checkmark|
+
+.. include:: /includes/extracts/scala-driver-compatibility-full-language.rst
+
+.. include:: /includes/unicode-checkmark.rst

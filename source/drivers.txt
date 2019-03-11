@@ -1,0 +1,71 @@
+=======================
+MongoDB Drivers and ODM
+=======================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+Drivers
+-------
+
+.. note::
+   
+   For information on next generation MongoDB drivers, see the
+   following blog posts:
+
+   - `Server Discovery and Monitoring Blog Post <http://www.mongodb.com/blog/post/server-discovery-and-monitoring-next-generation-mongodb-drivers?jmp=docs>`_
+   - `Server Selection Blog Post <http://www.mongodb.com/blog/post/server-selection-next-generation-mongodb-drivers?jmp=docs>`_
+   - `Consistent CRUD API Blog Post <http://www.mongodb.com/blog/post/consistent-crud-api-next-generation-mongodb-drivers?jmp=docs>`_
+
+.. include:: /includes/driver-table.rst
+
+For information on MongoDB licensing, see `MongoDB Licensing
+<https://www.mongodb.com/community/licensing>`_.
+
+.. class:: hidden
+
+   .. toctree::
+      :titlesonly:
+
+      C Driver <http://mongoc.org/?jmp=docs>
+      C++ Driver<https://mongodb.github.io/mongo-cxx-driver/?jmp=docs>
+      C# and .NET Driver </drivers/csharp>
+      Go Driver (beta) </drivers/go>
+      Java Driver <http://mongodb.github.io/mongo-java-driver/?jmp=docs>
+      Node.js Driver <https://mongodb.github.io/node-mongodb-native/?jmp=docs>
+      Perl Driver </drivers/perl>
+      PHP Driver </drivers/php>
+      Python Driver </drivers/python>
+      Ruby Driver  <https://docs.mongodb.com/ruby-driver/current/>
+      Mongoid ODM  <https://docs.mongodb.com/mongoid/current/>
+      Scala Driver </drivers/scala>
+
+MongoDB ODM (Object-Document-Mapper) 
+------------------------------------
+
+Mongoid is the officially supported ODM (Object-Document-Mapper)
+framework for MongoDB in Ruby. For documentation, see `Mongoid
+Documentation <https://docs.mongodb.com/mongoid/master/>`_.
+
+
+Community Supported Drivers
+---------------------------
+
+.. toctree::
+   :titlesonly:
+
+   /drivers/community-supported-drivers
+
+Reference
+---------
+
+.. toctree::
+   :titlesonly:
+
+   /drivers/specs
+   /drivers/driver-compatibility-reference
