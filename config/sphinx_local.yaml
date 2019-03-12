@@ -1,4 +1,4 @@
-project: 'mongodb-meta'
+project: 'mongodb-runbooks'
 master_doc: 'index'
 logo: ".static/logo-mongodb.png"
 paths:
