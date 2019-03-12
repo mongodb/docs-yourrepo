@@ -1,10 +1,10 @@
-project: 'ecosystem'
+project: 'epic-runbooks'
 master_doc: 'contents'
 paths:
   static: ['source/.static']
 theme:
-  name: 'ecosystem'
-  sitename: 'MongoDB Ecosystem'
+  name: 'epic-runbooks'
+  sitename: 'MongoDB Epic Runbooks'
   jira: 'DOCS'
   google_analytics: 'UA-7301842-8'
   nav_excluded:

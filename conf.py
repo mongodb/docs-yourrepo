@@ -31,7 +31,8 @@ extensions = [
     'mongodb',
     'directives',
     'intermanual',
-    'fasthtml'
+    'fasthtml',
+    'guides'
 ]
 
 templates_path = ['.templates']

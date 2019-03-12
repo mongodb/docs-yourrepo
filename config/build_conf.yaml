@@ -1,12 +1,12 @@
 git:
   remote:
-    upstream: 'mongodb/docs-ecosystem'
+    upstream: 'mongodb/docs-yourrepo'
     tools: 'mongodb/docs-tools'
 project:
-  name: 'ecosystem'
-  tag: 'ecosystem'
+  name: 'epic-runbooks'
+  tag: 'epic-runbooks'
   url: 'http://docs.mongodb.com'
-  title: "MongoDB Ecosystem"
+  title: "MongoDB Epic Runbooks"
   branched: false
 system:
   tools:
@@ -35,9 +35,9 @@ assets:
   - branch: master
     path: build/docs-tools
     repository: http://github.com/mongodb/docs-tools.git
-  - branch: ecosystem
+  - branch: epic-runbooks
     path: source/figures
-    repository: http://github.com/mongodb/docs-assets.git
+    repository: http://github.com/mongodb/dg-runbooks.git
 paths:
   output: 'build'
   source: 'source'
