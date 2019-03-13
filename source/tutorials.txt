@@ -12,3 +12,4 @@ Tutorials
    /tutorials/generating-a-browser-list
    /error-kb
    /tutorials/guide
+   /tutorials/epic-test

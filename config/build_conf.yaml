@@ -3,8 +3,8 @@ git:
     upstream: 'mongodb/docs-yourrepo'
     tools: 'mongodb/docs-tools'
 project:
-  name: 'mongodb-runbooks'
-  tag: 'mongodb-runbooks'
+  name: 'runbooks'
+  tag: 'runbooks'
   url: 'https://docs.mongodb.com/runbooks'
   title: 'MongoDB Meta Documentation'
   branched: false
@@ -18,7 +18,7 @@ assets:
     path: build/docs-tools
     repository: https://github.com/mongodb/docs-tools.git
 paths:
-  output: 'build-runbooks'
+  output: 'build'
   source: 'source'
   includes: 'source/includes'
   tools: 'bin'

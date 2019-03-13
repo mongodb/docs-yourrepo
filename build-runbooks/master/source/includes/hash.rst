@@ -1,1 +1,0 @@
-.. |commit| replace:: ``ea5f91a72785daa66268c61742ee2e5461ca6165``
